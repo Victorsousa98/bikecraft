@@ -1,6 +1,6 @@
-body{
-  font-family: 'Poppins', sans-serif;
-  font-family: 'Roboto', sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .font-1-xs {
@@ -63,9 +63,20 @@ body{
   .font-1-xxl {
     font-size: 3rem;
   }
+
+  .font-1-xl {
+    font-size: 1.75rem;
+  }
+
   .font-2-l,
   .font-2-l-b {
     font-size: 1.125rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .font-1-xl {
+    font-size: 1.5rem;
   }
 }
 
