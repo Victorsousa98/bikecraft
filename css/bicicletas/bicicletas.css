@@ -19,7 +19,6 @@
   margin-left: auto;
   margin-right: auto;
   min-width: 800px;
-  
 }
 
 .bicicletas-item img {
@@ -45,4 +44,8 @@
 
 .bicicletas-link:hover .bicicletas-item h3::before {
   width: 28px;
+}
+
+.bicicletas-item span {
+  margin-left: 22px;
 }
