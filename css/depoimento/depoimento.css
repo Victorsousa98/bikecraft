@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap");
+
+.depoimento {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  background-color: var(--cor-p1);
+  align-items: center;
+}
+
+.comentario p {
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+  max-width: 500px;
+}
+
+.comentario p::before {
+  content: "“";
+}
+
+.comentario p::after {
+  content: "”";
+}
