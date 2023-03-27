@@ -54,6 +54,9 @@ body {
 .font-2-xl {
   font: 500 2rem/1.25 "Roboto", sans-serif;
 }
+.font-1-xl-s {
+  font: 600 2.25rem/3rem "poppins", sans-serif;
+}
 
 .font-1-xxl {
   font: 600 4rem/1.125 "Poppins", sans-serif;

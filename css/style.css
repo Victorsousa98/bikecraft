@@ -6,9 +6,16 @@
 
 @import url("./cabecalho/cabecalho.css");
 @import url("cabecalho/cabecalho-links.css");
+
 @import url("introducao/introducao.css");
+
 @import url("bicicletas/bicicletas.css");
+
 @import url("tecnologia/tecnologia.css");
 @import url("tecnologia/tecnologia-vantagens.css");
+
 @import url("parceiros/parceiros.css");
+
 @import url("depoimento/depoimento.css");
+
+@import url("./seguros/seguros.css");

@@ -10,7 +10,11 @@
 .parceiros-logos {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 0;
+  max-width: 1400px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
   overflow: hidden;
 }
 

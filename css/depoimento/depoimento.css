@@ -3,21 +3,46 @@
 .depoimento {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 40px;
   background-color: var(--cor-p1);
-  align-items: center;
+  align-items: end;
+  justify-items: center;
+}
+
+.depoimento img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.comentario {
+  padding: 40px 40px 80px 80px;
 }
 
 .comentario p {
   font-family: "Merriweather", serif;
-  font-size: 32px;
-  max-width: 500px;
+  max-width: 32ch;
+  padding-bottom: 20px;
+  position: relative;
 }
 
 .comentario p::before {
   content: "“";
+  position: absolute;
+  left: -20px;
+  top: -10px;
+  color: var(--cor-p2);
 }
 
 .comentario p::after {
   content: "”";
+  color: var(--cor-p2);
+}
+
+@media (max-width: 800px) {
+  .depoimento {
+    grid-template-columns: 1fr;
+  }
+  .comentario {
+    text-align: center;
+  }
 }
