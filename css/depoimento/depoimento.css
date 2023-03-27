@@ -45,4 +45,8 @@
   .comentario {
     text-align: center;
   }
+
+  .depoimento img {
+    max-height: 200px;
+  }
 }
