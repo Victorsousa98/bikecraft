@@ -31,9 +31,13 @@
 .seguros-preco {
   justify-self: end;
   text-align: right;
+  position: relative;
 }
 .seguros-preco span {
   display: block;
+  position: absolute;
+  top: 72px;
+  right: 0;
 }
 
 .seguros-lista ul {

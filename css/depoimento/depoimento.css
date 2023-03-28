@@ -16,26 +16,33 @@
 
 .comentario {
   padding: 40px 40px 80px 80px;
+  align-self: end;
 }
 
 .comentario p {
   font-family: "Merriweather", serif;
   max-width: 32ch;
-  padding-bottom: 20px;
+  font-style: italic;
+  font-weight: 900;
+  padding-bottom: 32px;
   position: relative;
+}
+
+.comentario p::before,
+.comentario p::after {
+  font-size: 5rem;
+  color: var(--cor-p2);
+  position: absolute;
 }
 
 .comentario p::before {
   content: "“";
-  position: absolute;
-  left: -20px;
-  top: -10px;
-  color: var(--cor-p2);
+  left: -50px;
+  top: -20px;
 }
 
 .comentario p::after {
   content: "”";
-  color: var(--cor-p2);
 }
 
 @media (max-width: 800px) {
@@ -44,6 +51,9 @@
   }
   .comentario {
     text-align: center;
+  }
+  .comentario p {
+    margin: auto;
   }
 
   .depoimento img {
