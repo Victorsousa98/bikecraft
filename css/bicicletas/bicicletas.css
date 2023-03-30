@@ -54,13 +54,43 @@
   align-self: end;
 }
 
+.bicicletas-conteudo ul {
+  display: grid;
+  gap: 12px;
+}
+
 .bicicletas-conteudo ul li {
   display: flex;
   gap: 8px;
   align-items: center;
-  padding-bottom: 12px;
 }
 
 .bicicletas-conteudo a {
   justify-self: end;
+}
+
+@media (max-width: 800px) {
+  .bicicletas-bg {
+    background: var(--cor-11);
+  }
+  .bicicletas {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .bicicletas-conteudo {
+    grid-template-columns: 1fr;
+  }
+  .bicicletas ul {
+    font-size: 1rem;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 32px;
+  }
+  .bicicletas a {
+    place-self: start;
+  }
 }
