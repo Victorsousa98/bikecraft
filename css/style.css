@@ -21,6 +21,9 @@
 
 @import url("depoimento/depoimento.css");
 
+@import url("./contato/contato.css");
+@import url("./contato/lojas.css");
+
 @import url("./seguros/seguros.css");
 @import url("./seguros/vantagens.css");
 @import url("./seguros/perguntas.css");
