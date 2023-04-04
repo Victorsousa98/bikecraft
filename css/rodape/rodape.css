@@ -69,6 +69,9 @@
   }
 }
 
+.rodape a:hover {
+  color: var(--cor-0);
+}
 @media (max-width: 600px) {
   .rodape {
     grid-template-columns: 1fr;
